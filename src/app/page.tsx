@@ -122,6 +122,9 @@ Tech Stack & Skills</motion.h2>
       <li>React.js</li>
       <li>Next.js</li>
       <li>JavaScript</li>
+      <li>Framework Motion</li>
+      <li>HTML & CSS</li>
+      <li>Responsive Design</li>
       <li>TypeScript</li>
       <li>Tailwind CSS</li>
     </ul>
@@ -139,7 +142,7 @@ Tech Stack & Skills</motion.h2>
     y: -5,
   }}
 >
-    <h4 className="text-lg font-semibold text-blue-500 ">Backend Development</h4>
+    <h4 className="text-lg font-semibold text-blue-500 ">Programming Languages</h4>
     <ul className="text-gray-400 mt-2">
       <li>Java</li>
       <li>Python</li>
@@ -203,6 +206,7 @@ Tech Stack & Skills</motion.h2>
       <li>VS Code</li>
       <li>Cursor AI </li>
       <li>NPM</li>
+      <li>Vercel</li>
     </ul>
               </motion.div>
 
