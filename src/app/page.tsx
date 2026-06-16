@@ -276,7 +276,7 @@ Tech Stack & Skills</motion.h2>
 
       {/* GitHub */}
       <motion.a
-        href="https://github.com/shobiya2403-bot"
+        href="https://github.com/shobiya2403"
         target="_blank"
         className="bg-white/5 border border-white/10 rounded-lg p-4 flex items-center justify-between text-gray-300 hover:border-indigo-400 hover:shadow-lg transition"
         initial={{ opacity: 0, x: -50 }}
@@ -295,7 +295,7 @@ Tech Stack & Skills</motion.h2>
 
       {/* Twitter / X */}
      <motion.a
-  href="https://www.linkedin.com/in/shobiya-s-p/"
+  href="https://x.com/shobiya_2403"
   target="_blank"
   className="bg-white/5 border border-white/10 rounded-lg p-4 flex items-center justify-between text-gray-300 hover:border-indigo-400 hover:shadow-lg transition"
   initial={{ opacity: 0, x: -50 }}
@@ -313,7 +313,7 @@ Tech Stack & Skills</motion.h2>
 
       {/* Email */}
       <motion.a
-  href="https://www.linkedin.com/in/shobiya-s-p/"
+  href="mailto:shobiya2403@gmail.com"
   target="_blank"
   className="bg-white/5 border border-white/10 rounded-lg p-4 flex items-center justify-between text-gray-300 hover:border-indigo-400 hover:shadow-lg transition"
   initial={{ opacity: 0, x: -50 }}
