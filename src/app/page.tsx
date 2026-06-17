@@ -5,19 +5,21 @@ import Navbar from "@/components/Navbar";
 import image from "@/../public/shobi_img.jpeg";
 export default function Home() {
   return (
-    <div className="bg-gradient-to-br from-black via-gray-900 to-indigo-950">
+   <div className="bg-gradient-to-br from-black via-gray-900 to-indigo-950 overflow-x-hidden">
       <Navbar />
 
       {/* HOME SECTION */}
-      <section id="home" className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 sm:px-20 pt-20">
-      <motion.div
-  className="max-w-xl py-2"
+     <section
+  id="home"
+  className="min-h-screen flex flex-col justify-center px-6 sm:px-10 md:px-20 pt-20 text-center md:text-left"
+>
+      <motion.div className="w-full max-w-xl py-2"
   initial={{ opacity: 0, y: 50 }}
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: false }}
   transition={{ duration: 0.8 }}
 >
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 text-white break-words">
   Hi, I'm <span className="text-sky-500">Shobiya S P</span>
 </h1>
 
@@ -76,14 +78,12 @@ export default function Home() {
 >
       <div className="relative w-52 h-52 sm:w-64 sm:h-64 md:w-72 md:h-72 object-cover rounded-2xl">
 
-        <img
-          src="shobi_img.jpeg"
-          alt="Profile"
-        
-          className="w-72 h-75 md:w-70 md:h-70 object-cover rounded-2xl 
-          border border-white/10 shadow-lg hover:scale-105 transition duration-300 quality-100"
-        />
-      </div>
+       <img
+  src="shobi_img.jpeg"
+  alt="Profile"
+  className="w-48 h-60 sm:w-56 sm:h-72 md:w-72 md:h-96 object-cover rounded-2xl border border-white/10 shadow-lg hover:scale-105 transition duration-300"
+/>
+</div>
       </motion.div>
     </div>
 
@@ -91,7 +91,10 @@ export default function Home() {
 </section>
 
       {/* SKILLS SECTION */}
-      <section id="skills" className="min-h-screen px-6 md:px-20 flex items-center  py-20">
+      <section
+  id="skills"
+  className="min-h-screen px-6 md:px-20 flex justify-center items-center py-20"
+>
         <div >
           <motion.h2
   className="text-3xl md:text-4xl font-bold mb-8 text-white"
